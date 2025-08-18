@@ -2,9 +2,9 @@
 // Sesuaikan dengan nama file gambar di folder images/
 const imageGroups = {
     group1: [
-        // 'images/group1/gambar1.jpg',
-        // 'images/group1/gambar2.jpg',
-        // 'images/group1/gambar3.jpg',
+        'images/group1/gambar1.jpg',
+        'images/group1/gambar2.jpg',
+        'images/group1/gambar3.jpg',
         'images/group1/gambar4.jpg',
         'images/group1/gambar5.jpg',
         'images/group1/gambar6.jpg'
@@ -86,4 +86,5 @@ document.addEventListener('keyup', (event) => {
 });
 
 // Panggil fungsi sekali saat halaman pertama kali dimuat
+
 getRandomImage();
