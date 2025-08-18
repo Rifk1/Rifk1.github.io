@@ -60,15 +60,19 @@ button:active {
         padding: 10px;
         width: 95%;
     }
+    .controls {
+        /* Mengatur tata letak agar tombol dan label sejajar dan terpisah */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+    }
+    .controls label, button {
+        margin: 0;
+    }
     #randomImage {
         width: 100%; /* Gambar akan menyesuaikan 100% lebar container */
         height: auto; /* Tinggi akan menyesuaikan agar gambar tidak terdistorsi */
         border: none; /* Hilangkan border agar tampilan lebih bersih */
-    }
-    .controls {
-        flex-direction: column; /* Mengubah tombol dan checkbox menjadi tumpukan vertikal */
-    }
-    button, .controls label {
-        margin: 5px 0;
     }
 }
