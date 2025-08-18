@@ -19,6 +19,13 @@
         /* Contoh latar belakang agar transparansi terlihat */
         background-color: #f0f0f0; 
       }
+       /* Media Query untuk mengubah background pada perangkat mobile */
+      @media (max-width: 768px) {
+        body {
+          /* Ganti dengan URL foto yang berbeda untuk mobile */
+          background-image: url('images/olinepot.jfif');
+          /* Properti lain tidak perlu diulang jika sama */
+        }
       .navbar {
         /* Kode untuk latar belakang transparan hitam */
         background-color: rgba(0, 0, 0, 0.2) !important;
@@ -61,3 +68,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
   </body>
 </html>
+
