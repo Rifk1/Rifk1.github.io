@@ -1,0 +1,67 @@
+/* ---- CSS untuk Desktop (Layar Lebar) ---- */
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 900px; /* Batasi lebar container di layar besar */
+}
+.controls {
+    margin: 20px 0;
+}
+.controls label {
+    margin-right: 15px;
+}
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+button:hover {
+    background-color: #555;
+}
+button:active {
+    transform: translateY(2px);
+    box-shadow: none;
+}
+#randomImage {
+    width: 600px; /* Ukuran tetap untuk desktop */
+    height: 400px;
+    object-fit: contain;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+/* ---- Media Query untuk Perangkat Mobile (Layar Kecil) ---- */
+@media (max-width: 650px) {
+    .container {
+        padding: 10px;
+        width: 95%;
+    }
+    #randomImage {
+        width: 100%; /* Gambar akan menyesuaikan 100% lebar container */
+        height: auto; /* Tinggi akan menyesuaikan agar gambar tidak terdistorsi */
+        border: none; /* Hilangkan border agar tampilan lebih bersih */
+    }
+    .controls {
+        flex-direction: column; /* Mengubah tombol dan checkbox menjadi tumpukan vertikal */
+    }
+    button, .controls label {
+        margin: 5px 0;
+    }
+}
