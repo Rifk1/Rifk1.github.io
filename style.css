@@ -1,5 +1,12 @@
-/* ---- CSS untuk Desktop (Layar Lebar) ---- */
 body {
+    /* --- Kode untuk Background GIF (ditambahkan) --- */
+    background-image: url('images/background.gif'); /* Ganti dengan URL atau path file GIF-mu */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* ----------------------------------------------- */
+
     font-family: sans-serif;
     display: flex;
     justify-content: center;
