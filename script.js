@@ -10,7 +10,7 @@ const imageGroups = {
         'images/group1/gambar6.jpg'
     ],
     group2: [
-        'images/group2/petir1.png',
+        'images/group2/petir1.jpg',
         'images/group2/petir2.png',
         'images/group2/petir3.png',
         'images/group2/petir4.png',
@@ -91,4 +91,5 @@ document.addEventListener('keyup', (event) => {
 // Panggil fungsi sekali saat halaman pertama kali dimuat
 
 getRandomImage();
+
 
