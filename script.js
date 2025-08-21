@@ -92,4 +92,15 @@ document.addEventListener('keyup', (event) => {
 
 getRandomImage();
 
+function copyLink(link) {
+    navigator.clipboard.writeText(link)
+        .then(() => {
+            alert("Tautan berhasil disalin!");
+        })
+        .catch(err => {
+            console.error('Gagal menyalin: ', err);
+        });
+}
+
+
 
