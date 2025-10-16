@@ -1,11 +1,23 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    /* Properti tambahan untuk tampilan */
+    filter: brightness(60%); /* Opsional: sedikit gelap */
+}
 body {
     /* --- Kode untuk Background GIF (ditambahkan) --- */
-    background-image: url('images/background.gif'); /* Ganti dengan URL atau path file GIF-mu */
+    /* background-image: url('images/background.gif'); Ganti dengan URL atau path file GIF-mu */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* ----------------------------------------------- */
+  
 
     font-family: sans-serif;
     display: flex;
