@@ -4,15 +4,29 @@
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    width: auto;
-    height: auto;
+ width: 100vw;
+    height: 100vh;
     z-index: -1;
+     object-fit: cover;  
     /* Properti tambahan untuk tampilan */
     filter: brightness(60%); /* Opsional: sedikit gelap */
 }
+.audio-btn {
+    position: fixed;
+    top: 14px;
+    right: 14px;
+    z-index: 3;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
 body {
     /* --- Kode untuk Background GIF (ditambahkan) --- */
-    /* background-image: url('images/background.gif'); Ganti dengan URL atau path file GIF-mu */
+     background-image: url('images/background.gif'); /*Ganti dengan URL atau path file GIF-mu */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,9 +44,9 @@ body {
 .container {
     text-align: center;
     padding: 20px;
-    background: white;
+    background: rgba(255, 255, 255, 0.196);;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(11, 7, 7, 0.6);
     max-width: 900px; /* Batasi lebar container di layar besar */
 }
 .controls {
@@ -62,8 +76,8 @@ button:active {
     width: 600px; /* Ukuran tetap untuk desktop */
     height: 400px;
     object-fit: contain;
-    border: 2px solid #ccc;
-    border-radius: 8px;
+    /* border: 2px solid #ccc;
+    border-radius: 8px; */
 }
 
 /* ---- Media Query untuk Perangkat Mobile (Layar Kecil) ---- */
@@ -87,4 +101,23 @@ button:active {
         height: auto; /* Tinggi akan menyesuaikan agar gambar tidak terdistorsi */
         border: none; /* Hilangkan border agar tampilan lebih bersih */
     }
+}
+.image-title {
+    
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: none;  /* hidden by default */
+    text-align: center;
+}
+
+.toggle-btn {
+    margin-bottom: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }

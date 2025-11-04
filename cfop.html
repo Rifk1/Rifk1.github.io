@@ -7,19 +7,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <video autoplay muted loop id="myVideo">
+    <!-- <video autoplay muted loop id="myVideo">
         <source src="video/jessi.mp4" type="video/mp4">
         Your browser does not support the video tag.
-    </video>
+    </video> -->
     <div class="content">
         </div>
     <div class="container">
         <h1>Latihan Oll Cfop</h1>
+         <button id="toggleAudioBtn" class="audio-btn" aria-pressed="false">Suara: Mati</button>
         <div class="controls">
     <label><input type="checkbox" name="group" value="group1" checked> L-Shapes</label>
     <label><input type="checkbox" name="group" value="group2" checked> Pola Petir</label>
+    <label><input type="checkbox" name="group" value="k" checked> Knight Move</label>
+     <label><input type="checkbox" name="group" value="i" checked> i Shape</label>
     <button id="showAllBtn">Semua Oll</button>
     <button id="showRandomBtn">Mulai</button>
+    <div class="image-display">
+    <div class="image-title" id="imageTitle"></div>
+    <button id="toggleTitleBtn" class="toggle-btn">Tampilkan Algo</button>
+  
+</div>
 </div>
         <!-- <div class="controls">
             <label><input type="checkbox" name="group" value="group1" checked> Grup 1</label>
