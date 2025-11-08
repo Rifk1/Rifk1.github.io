@@ -28,11 +28,20 @@ const imageGroups = {
         { path: 'images/i/i4.png', title: "r' U' r (U' R' U R) (U' R' U R) r' U r" }
         
     ],
-     i:[
-        { path: 'images/A/A1.png', title: "(R' F R U) (R U' R2' F') R2 U' R' (U R U R')" },
-        { path: 'images/A/A2.png', title: "r' U' r (U' R' U R) (U' R' U R) r' U r" },
-        { path: 'images/A/A3.png', title: "r' U' r (U' R' U R) (U' R' U R) r' U r" },
-        { path: 'images/A/A4.png', title: "r' U' r (U' R' U R) (U' R' U R) r' U r" }
+     a:[
+        { path: 'images/A/A1.png', title: "M U (R U R' U')(R' F R F') M'" },
+        { path: 'images/A/A2.png', title: "F U (R U2 R' U') (R U2 R' U') F'" },
+        { path: 'images/A/A3.png', title: "(R U R' U R U2' R') F (R U R' U') F'" },
+        { path: 'images/A/A4.png', title: "(R' U' R U' R' U2 R) F (R U R' U') F'" }
+        
+    ],
+    l:[
+        { path: 'images/l/l1.png', title: "(R' F R U) (R U' R2' F') R2 U' R' (U R U R')" },
+        { path: 'images/l/l2.png', title: "r' U' r (U' R' U R) (U' R' U R) r' U r" },
+        { path: 'images/l/l3.png', title: "r' U' r (U' R' U R) (U' R' U R) r' U r" },
+        { path: 'images/l/l4.png', title: "r' U' r (U' R' U R) (U' R' U R) r' U r" },
+        { path: 'images/l/l5.png', title: "r' U' r (U' R' U R) (U' R' U R) r' U r" },
+        { path: 'images/l/l6.png', title: "r' U' r (U' R' U R) (U' R' U R) r' U r" }
         
     ]
 };
